@@ -5,8 +5,10 @@ class CalculoImcScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.green[100],
       appBar: AppBar(
-        title: Text("Cálculos de IMC E IAC"),
+        title: Text("Cálculos de IMC E IAC",
+            style: TextStyle(color: Colors.black)),
       ),
       body: CalculoImcWidget(),
     );

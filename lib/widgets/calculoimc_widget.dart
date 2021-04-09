@@ -226,7 +226,8 @@ class _CalculoImcWidgetState extends State<CalculoImcWidget> {
                       _calculariac();
                   }
                 },
-                child: Text("Calcular resultado"),
+                child: Text("Calcular resultado",
+                    style: TextStyle(color: Colors.green[800])),
               ),
             ),
           ],
