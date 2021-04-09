@@ -184,8 +184,8 @@ class _CalculoImcWidgetState extends State<CalculoImcWidget> {
                         ? "Informe seu peso, obs sem mentir"
                         : null;
                   },
-                  decoration:
-                      InputDecoration(labelText: "Digite seu Peso em Kg:"),
+                  decoration: InputDecoration(
+                      labelText: "Digite seu Peso em Kg sem mentir:"),
                 ),
               ),
               visible: _radioTypeValue == 0,
@@ -226,7 +226,7 @@ class _CalculoImcWidgetState extends State<CalculoImcWidget> {
                       _calculariac();
                   }
                 },
-                child: Text("Calcular"),
+                child: Text("Calcular resultado"),
               ),
             ),
           ],
