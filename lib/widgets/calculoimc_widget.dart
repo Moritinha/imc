@@ -27,7 +27,7 @@ class _CalculoImcWidgetState extends State<CalculoImcWidget> {
   String getClassificacao(num imc) {
     String strclassificacao;
     if (imc < 18.6)
-      strclassificacao = "Abaixo do peso";
+      strclassificacao = "Peso Esperado";
     else if (imc < 25)
       strclassificacao = "Peso ideal";
     else if (imc < 30)
